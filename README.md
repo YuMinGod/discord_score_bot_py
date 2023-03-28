@@ -7,6 +7,7 @@ Use the [/help] command to check all commands in the bot!
 
 # (1)How to Use?
 ![1](https://user-images.githubusercontent.com/125354965/228285357-99d9d8c9-54ee-413b-a979-dd64bf329727.PNG)
+
 Use the [/시작] command to start the game. You must enter a number (1-10) of players to participate in the game.
 
 # (2)How to Use?
