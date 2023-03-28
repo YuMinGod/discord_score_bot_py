@@ -154,6 +154,7 @@ async def on_message(message):
             embed.add_field(name="[/참가]", value="게임에 참가합니다.", inline=False)
             embed.add_field(name="[/계속]", value="다음 세트를 시작하고 점수를 입력합니다.", inline=False)
             embed.add_field(name="[/점수]", value="모든 플레이어의 점수를 확인합니다.", inline=False)
+            embed.add_field(name="[/종료]", value="게임을 종료합니다.", inline=False)
             await message.channel.send(embed=embed)
         else:
             embed = discord.Embed(title="봇 사용 방법", color=0x00aaaa)
@@ -161,6 +162,7 @@ async def on_message(message):
             embed.add_field(name="[/참가]", value="게임에 참가합니다.", inline=False)
             embed.add_field(name="[/계속]", value="다음 세트를 시작하고 점수를 입력합니다.", inline=False)
             embed.add_field(name="[/점수]", value="모든 플레이어의 점수를 확인합니다.", inline=False)
+            embed.add_field(name="[/종료]", value="모든 플레이어의 점수를 확인합니다.", inline=False)
             await message.channel.send(embed=embed)                            
 
 client.run(TOKEN)
