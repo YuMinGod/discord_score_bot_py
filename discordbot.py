@@ -1,6 +1,9 @@
 import discord
 from discord.ext import tasks
 from itertools import cycle
+import os
+
+TOKEN = os.environ['TOKEN']
 
 status = cycle(["[/help] 명령어를 입력하여 사용 방법을 확인하세요!"])
 
@@ -160,4 +163,4 @@ async def on_message(message):
             embed.add_field(name="[/점수]", value="모든 플레이어의 점수를 확인합니다.", inline=False)
             await message.channel.send(embed=embed)                            
 
-client.run('TOKEN')
+client.run(TOKEN)
